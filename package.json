@@ -1,0 +1,29 @@
+{
+  "name": "gqx",
+  "version": "0.0.0",
+  "description": "GraphQL query builder using React custom renderer API",
+  "main": "build/index.js",
+  "files": ["build/**"],
+  "repository": "",
+  "author": "Nithin <nithinpeter7@gmail.com>",
+  "license": "MIT",
+  "keywords": ["graphql", "react", "query builder"],
+  "dependencies": {
+    "fbjs": "^0.8.16",
+    "react": "^16.0.0",
+    "react-reconciler": "^0.2.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "jest": "^21.2.1"
+  },
+  "scripts": {
+    "build": "NODE_ENV=production babel src -d build",
+    "example": "babel-node ./example/App.js",
+    "test": "jest"
+  }
+}

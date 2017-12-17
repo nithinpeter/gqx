@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render mutation 1`] = `"mutation DogDetailsQuery { dogName,hooman: human  { address  { addressLine1,state } } }"`;
+
+exports[`should render query 1`] = `"query DogDetailsQuery { dogName,hooman: human  { address  { addressLine1,state } } }"`;
