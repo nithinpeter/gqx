@@ -1,13 +1,19 @@
 {
   "name": "gqx",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "GraphQL query builder using React custom renderer API",
   "main": "build/index.js",
-  "files": ["build/**"],
+  "files": [
+    "build/**"
+  ],
   "repository": "",
   "author": "Nithin <nithinpeter7@gmail.com>",
   "license": "MIT",
-  "keywords": ["graphql", "react", "query builder"],
+  "keywords": [
+    "graphql",
+    "react",
+    "query builder"
+  ],
   "dependencies": {
     "fbjs": "^0.8.16",
     "react": "^16.0.0",
